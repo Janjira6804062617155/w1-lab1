@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main() {
+	int h,m,s;
+	
+	printf("input time h:m:s :");
+	scanf("%d:%d:%d",&h,&m,&s);
+	
+	printf("hour: %d \n",h);
+	printf("minute: %d \n",m);
+	printf("second: %d \n",s);
+	
+	return 0;
+}
